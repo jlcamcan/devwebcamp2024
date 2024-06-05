@@ -39,6 +39,7 @@ class Email{
       
             //Habilitar HTML
             $mail->isHTML(true);
+            
             //Contenido
             $mail->Subject = "Confirma tu Cuenta en DevWebCamp WorkShops/Conferencias";
             //Construimos el contenido
