@@ -55,7 +55,6 @@ class Paginacion{
         return $html ;
     }
 
-
     //Imprime en la vista
     public function paginacion(){
         $html = '';

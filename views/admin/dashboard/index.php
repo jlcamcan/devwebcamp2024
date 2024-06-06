@@ -39,8 +39,7 @@
                  </div>
             <?php }?> 
         </div>
-        
-    </div>
+    </div><!-- .bloques__grid -->
 </main>
 
 
