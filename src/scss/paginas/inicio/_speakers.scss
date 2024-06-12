@@ -27,7 +27,7 @@
         }
     }
     &__imagen {
-        min-width: 35rem;
+        min-width: 20rem;
         @include m.tablet {
             min-width: unset;
         }

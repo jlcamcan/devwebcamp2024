@@ -34,7 +34,7 @@
             <picture>
                 <source srcset="img/speakers/<?php echo $ponente->imagen; ?>.webp" type="image/webp">
                 <source srcset="img/speakers/<?php echo $ponente->imagen; ?>.png"  type="image/png">
-                <img class="speaker__imagen" loading="lazy" witdh="200" height="300" src="img/speakers/<?php echo $ponente->imagen; ?>.png" alt="Imagen Ponentes">
+                <img class="speaker__imagen" loading="lazy" width="200" height="300" src="img/speakers/<?php echo $ponente->imagen; ?>.png" alt="Imagen Ponentes">
             </picture>
             <div class="speaker__informacion">
                 <h4 class="speaker__nombre">
