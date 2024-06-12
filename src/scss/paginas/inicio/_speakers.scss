@@ -3,12 +3,12 @@
 .speakers {
     &__grid {
         @include m.contenedor;
-        @include m.grid(1, 5rem);
+        @include m.grid(2, 1rem);
         @include m.tablet {
-            @include m.grid(2, 5rem);
+            @include m.grid(3, 3rem);
         }
         @include m.xl_desktop {
-            @include m.grid(3, 5rem);
+            @include m.grid(4, 3rem);
         }
     }
 }
@@ -16,7 +16,7 @@
 .speaker {
     @include m.card;
     background-position: center top;
-    background-size: 35rem;
+    background-size: 17rem;
     background-repeat: no-repeat;
     @for $i from 1 through 4 {
         &:nth-child(4n + #{$i}) {
@@ -26,17 +26,30 @@
             );
         }
     }
+    @include m.tablet {
+        background-size: 20rem;
+    }
+    @include m.desktop {
+        background-size: 25rem;
+    }
     &__imagen {
-        min-width: 20rem;
+        min-width: 10rem;
         @include m.tablet {
             min-width: unset;
         }
     }
     &__ubicacion {
         color: v.$gris;
-        margin: 1rem 0;
-        font-size: 2rem;
-        line-height: 1.5;
+        margin: 0;
+        font-size: 1rem;
+        @include m.tablet {
+            line-height: 1.5;
+            font-size: 1.5rem;
+        }
+        @include m.desktop {
+            line-height: 1.5;
+            font-size: 2rem;
+        }
     }
     &__listado-skills {
         @include m.tags;
@@ -45,9 +58,15 @@
 
 .speaker-sociales {
     @include m.menu-social(v.$negro,
-    3rem);
+    1.5rem);
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    @include m.tablet {
+        @include m.menu-social(v.$negro,
+        2.5rem);
+        gap: 2rem;
+        margin-top: 2rem;
+    }
 }

@@ -48,32 +48,32 @@
                     <?php $redes = json_decode($ponente->redes);?> 
                     <?php if(!empty($redes->facebook)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->facebook;?>">
-                        <span class="speaker-sociales__ocultar">Facebook</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?> 
                 
                     <?php if(!empty($redes->twitter)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->twitter;?>">
-                        <span class="speaker-sociales__ocultar">Twitter</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?>
 
                     <?php if(!empty($redes->youtube)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->youtube;?>">
-                        <span class="speaker-sociales__ocultar">Youtube</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?>
 
                     <?php if(!empty($redes->instagram)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->instagram;?>">
-                        <span class="speaker-sociales__ocultar">Instagram</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?>
 
                     <?php if(!empty($redes->tiktok)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->tiktok;?>">
-                        <span class="speaker-sociales__ocultar">Tiktok</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?>
 
                     <?php if(!empty($redes->github)){?>
                         <a class="speaker-sociales__enlace" rel="noopener noreferrer" target="_blank" href="<?php echo $redes->github;?>">
-                        <span class="speaker-sociales__ocultar">GitHub</span></a>                             
+                        <span class="speaker-sociales__ocultar"></span></a>                             
                     <?php }?>
                 </nav>
                 <!--tags-->
