@@ -1,6 +1,7 @@
 @use 'base/mixins' as m;
 @use 'base/variables' as v;
 .speakers {
+    overflow-x: hidden;
     &__grid {
         @include m.contenedor;
         @include m.grid(2, 1rem);

@@ -446,7 +446,7 @@ h3 {
   border-radius: 1rem;
   padding: 1rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .paquete {
     padding: 2rem;
   }
@@ -462,7 +462,7 @@ h3 {
     margin: 1rem 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .paquete__nombre {
     font-size: 2.6rem;
     margin: 1rem 0;
@@ -631,6 +631,9 @@ h3 {
   font-size: 8rem;
 }
 
+.speakers {
+  overflow-x: hidden;
+}
 .speakers__grid {
   width: min(95%, 140rem);
   margin: 0 auto;
@@ -645,7 +648,7 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (min-width: 1368px) {
+@media (min-width: 1440px) {
   .speakers__grid {
     display: grid;
     gap: 3rem;
@@ -661,7 +664,7 @@ h3 {
   background-size: 17rem;
   background-repeat: no-repeat;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .speaker {
     padding: 2rem;
   }
@@ -677,7 +680,7 @@ h3 {
     margin: 1rem 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .speaker__nombre {
     font-size: 2.6rem;
     margin: 1rem 0;
@@ -704,7 +707,7 @@ h3 {
     background-size: 20rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .speaker {
     background-size: 25rem;
   }
@@ -728,7 +731,7 @@ h3 {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .speaker__ubicacion {
     line-height: 1.5;
     font-size: 2rem;
@@ -757,7 +760,7 @@ h3 {
     padding: 0.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .speaker__listado-skills > li {
     font-size: 1.5rem;
     padding: 1rem;
@@ -896,7 +899,7 @@ h3 {
   white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 4rem);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .entrada__logo {
     text-align: left;
     margin: 0;
@@ -1119,7 +1122,7 @@ h3 {
     padding: 0.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .formulario__listado > li {
     font-size: 1.5rem;
     padding: 1rem;
@@ -1310,7 +1313,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .barra__contenido {
     flex-direction: row;
     align-items: center;
@@ -1324,7 +1327,7 @@ h3 {
   white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 5rem);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .barra__logo {
     text-align: left;
     margin: 0;
@@ -1336,7 +1339,7 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .navegacion {
     flex-direction: row;
   }
@@ -1377,7 +1380,7 @@ h3 {
   white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 4rem);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .footer__logo {
     text-align: left;
     margin: 0;
@@ -1492,7 +1495,7 @@ h3 {
   white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 3rem);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .dashboard__logo {
     text-align: left;
     margin: 0;
@@ -1728,7 +1731,7 @@ h3 {
   gap: 3rem;
   grid-template-columns: repeat(1, 1fr);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .bloques__grid {
     display: grid;
     gap: 3rem;
