@@ -631,11 +631,8 @@ h3 {
   font-size: 8rem;
 }
 
-.speakers {
-  overflow-x: hidden;
-}
 .speakers__grid {
-  width: min(95%, 140rem);
+  width: min(95%, 60rem);
   margin: 0 auto;
   display: grid;
   gap: 1rem;
@@ -643,8 +640,10 @@ h3 {
 }
 @media (min-width: 768px) {
   .speakers__grid {
+    width: min(95%, 140rem);
+    margin: 0 auto;
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }
