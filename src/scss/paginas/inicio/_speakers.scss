@@ -1,14 +1,14 @@
 @use 'base/mixins' as m;
 @use 'base/variables' as v;
 .speakers {
-    overflow-x: hidden;
     &__grid {
-        @include m.contenedor;
+        @include m.contenedor-sm;
         @include m.grid(2, 1rem);
         @include m.tablet {
-            @include m.grid(3, 3rem);
+            @include m.contenedor;
+            @include m.grid(3, 2rem);
         }
-        @include m.xl_desktop {
+        @include m.desktop {
             @include m.grid(4, 3rem);
         }
     }
